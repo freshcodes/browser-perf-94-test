@@ -1,0 +1,8 @@
+opensource/browser-perf-test » selenium-server --version
+Selenium server version: 3.9.0, revision: 698b3178f0
+
+opensource/browser-perf-test » chromedriver --version
+ChromeDriver 2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef)
+
+opensource/browser-perf-test » node --version
+v9.3.0

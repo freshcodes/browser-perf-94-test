@@ -1,0 +1,14 @@
+{
+  "name": "browser-perf-test",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "export DEBUG=* && node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browser-perf": "freshcodes/browser-perf#perflogging"
+  }
+}

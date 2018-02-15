@@ -1,0 +1,139 @@
+
+(node:59678) [DEP0022] DeprecationWarning: os.tmpDir() is deprecated. Use os.tmpdir() instead.
+  bp:index Selenium is on localhost +0ms
+  bp:metrics Initializing Metrics +1ms
+  bp:probes Registering probe PerfLogProbe +95ms
+  bp:probes:AndroidTracingProbe Initialize +5ms
+  bp:probes Registering probe AndroidTracingProbe +0ms
+  bp:probes Registering probe PerfLogProbe +2ms
+  bp:probes Registering probe AndroidTracingProbe +0ms
+  bp:probes Registering probe RafBenchmarkingProbe +1ms
+  bp:probes Registering probe NavTimingProbe +1ms
+  bp:probes Registering probe NetworkResourcesProbe +1ms
+  bp:metrics TimelineMetrics setup called +1ms
+  bp:metrics ChromeTracingMetrics setup called +0ms
+  bp:metrics NetworkResources setup called +0ms
+  bp:probes setup +1ms
+  bp:probes PerfLogProbe setup called +0ms
+  bp:probes AndroidTracingProbe setup called +0ms
+  bp:probes NetworkResourcesProbe setup called +0ms
+  bp:index Stating browser with {"browserName":"chrome","chromeOptions":{"perfLoggingPrefs":{"traceCategories":",blink.console,devtools.timeline,disabled-by-default-devtools.timeline,toplevel,disabled-by-default-devtools.timeline.frame,benchmark"},"args":["--enable-gpu-benchmarking","--enable-thread-composting"]},"loggingPrefs":{"performance":"ALL"}} +1ms
+  bp:selenium CALL init({"browserName":"chrome","chromeOptions":{"perfLoggingPrefs":{"tra  +1ms
+  bp:selenium RESPONSE init({"browserName":"chrome","chromeOptions":{"perfLoggingPrefs":{"tra "d0e898618cca4d01afd649b1f874c893",{"applicationCacheEnabled":false,"r +530ms
+  bp:index Session is d0e898618cca4d01afd649b1f874c893 +2ms
+  bp:index Running Prescript +0ms
+  bp:selenium CALL get("http://nparashuram.com/perfslides/")  +0ms
+  bp:selenium RESPONSE get("http://nparashuram.com/perfslides/")  +764ms
+  bp:probes start +0ms
+  bp:probes PerfLogProbe start called +0ms
+  bp:selenium CALL logTypes()  +0ms
+  bp:selenium RESPONSE logTypes() ["server","performance","browser","driver"] +5ms
+  bp:probes:PerfLogProbe Supported log types [ 'server', 'performance', 'browser', 'driver' ] +0ms
+  bp:selenium CALL log("performance")  +2ms
+  bp:selenium RESPONSE log("performance") [{"level":"INFO","message":"{\"message\":{\"method\":\"Tracing.dataCol +1s
+  bp:probes AndroidTracingProbe start called +0ms
+  bp:probes RafBenchmarkingProbe start called +1ms
+  bp:selenium CALL execute("(function(){var getTimeMs=(function(){if(window.performance)\  +2ms
+  bp:selenium RESPONSE execute("(function(){var getTimeMs=(function(){if(window.performance)\ null +11ms
+  bp:probes NetworkResourcesProbe start called +1ms
+  bp:selenium CALL execute("(function(){window.__networkResources=(window.performance&&ty  +0ms
+  bp:actions:scroll Initializing Scroll function +13ms
+  bp:selenium CALL execute("'use strict';(function(){function getBoundingVisibleRect(el){  +3ms
+  bp:selenium RESPONSE execute("'use strict';(function(){function getBoundingVisibleRect(el){ null +11ms
+  bp:actions:scroll Waiting for Scrolling to finish +0ms
+  bp:selenium CALL waitFor({"asserter":{},"timeout":600000,"pollFreq":2000})  +1ms
+  bp:selenium CALL eval("(window.__scrollActionDone === true)")  +0ms
+  bp:selenium RESPONSE execute("(function(){window.__networkResources=(window.performance&&ty null +2ms
+  bp:selenium CALL eval("window.__networkResources")  +1ms
+  bp:selenium RESPONSE eval("(window.__scrollActionDone === true)") false +3ms
+  bp:selenium RESPONSE eval("window.__networkResources") [{"connectEnd":49.755,"connectStart":25.150000000000002,"decodedBodySi +12ms
+  bp:selenium CALL eval("(window.__scrollActionDone === true)")  +2s
+  bp:selenium RESPONSE eval("(window.__scrollActionDone === true)") false +7ms
+  bp:selenium CALL eval("(window.__scrollActionDone === true)")  +2s
+  bp:selenium RESPONSE eval("(window.__scrollActionDone === true)") false +6ms
+  bp:selenium CALL eval("(window.__scrollActionDone === true)")  +2s
+  bp:selenium RESPONSE eval("(window.__scrollActionDone === true)") false +5ms
+  bp:selenium CALL eval("(window.__scrollActionDone === true)")  +2s
+  bp:selenium RESPONSE eval("(window.__scrollActionDone === true)") true +8ms
+  bp:selenium RESPONSE waitFor({"asserter":{},"timeout":600000,"pollFreq":2000}) true +0ms
+  bp:probes teardown +0ms
+  bp:probes PerfLogProbe teardown called +0ms
+  bp:probes:PerfLogProbe Getting Performance log http://localhost:4444/wd/hub/session/d0e898618cca4d01afd649b1f874c893/log +1ms
+  bp:probes AndroidTracingProbe teardown called +14ms
+  bp:probes RafBenchmarkingProbe teardown called +0ms
+  bp:probes:RafBenchmarkingProbe Clearing timer Interval +0ms
+  bp:selenium CALL eval("window.__RafRecorder.get()")  +0ms
+  bp:selenium RESPONSE eval("window.__RafRecorder.get()") [1961.8869999831077,1978.566999983741,1995.2469999843743,2011.92699998 +12ms
+  bp:probes NavTimingProbe teardown called +0ms
+  bp:selenium CALL execute("(function(){var requestAnimationFrame=(function(){return wind  +2ms
+  bp:selenium RESPONSE execute("(function(){var requestAnimationFrame=(function(){return wind null +8ms
+  bp:selenium CALL waitFor({"asserter":{},"timeout":600000,"pollFreq":1000})  +0ms
+  bp:selenium CALL eval("(typeof window.__navTimings !== \"undefined\")")  +0ms
+  bp:selenium RESPONSE eval("(typeof window.__navTimings !== \"undefined\")") false +7ms
+  bp:selenium CALL eval("(typeof window.__navTimings !== \"undefined\")")  +1s
+  bp:selenium RESPONSE eval("(typeof window.__navTimings !== \"undefined\")") true +8ms
+  bp:selenium RESPONSE waitFor({"asserter":{},"timeout":600000,"pollFreq":1000}) true +0ms
+  bp:selenium CALL eval("window.__navTimings")  +0ms
+  bp:selenium RESPONSE eval("window.__navTimings") {"connectEnd":1518700292169,"connectStart":1518700292145,"domComplete" +7ms
+  bp:probes NetworkResourcesProbe teardown called +1ms
+  bp:selenium CALL execute("(function(){window.__networkResources=(window.performance&&ty  +1ms
+  bp:selenium RESPONSE execute("(function(){window.__networkResources=(window.performance&&ty null +5ms
+  bp:selenium CALL eval("window.__networkResources")  +1ms
+  bp:selenium RESPONSE eval("window.__networkResources") [{"connectEnd":49.755,"connectStart":25.150000000000002,"decodedBodySi +41ms
+  bp:metrics Getting Results +1ms
+  bp:metrics Getting results from  TimelineMetrics +0ms
+  bp:metrics Getting results from  ChromeTracingMetrics +0ms
+  bp:metrics:RenderingStats Looked at all events, could not find a process_labels. Pid is undefined +0ms
+  bp:metrics:RenderingStats Process ID for render process is  undefined +0ms
+  bp:metrics:RenderingStats Timestamp Event name is  BenchmarkInstrumentation::ImplThreadRenderingStats +1ms
+  bp:metrics:ChromeTracingMetrics Does not have enough frames for computing tracing +0ms
+  bp:metrics:ChromeTracingMetrics Does not have enough frames for computing tracing +0ms
+  bp:metrics Getting results from  RafBenchmarkingRenderingStats +0ms
+  bp:metrics Getting results from  NetworkTimings +1ms
+  bp:metrics Getting results from  NetworkResources +0ms
+  bp:selenium CALL quit()  +1ms
+  bp:selenium RESPONSE quit()  +59ms
+
+
+[ { Styles: 0,
+    Javascript: 0,
+    numAnimationFrames: 484,
+    numFramesSentToScreen: 484,
+    droppedFrameCount: 1,
+    meanFrameTime_raf: 16.68000000003322,
+    framesPerSec_raf: 59.95203836918515,
+    connectEnd: 1518700292169,
+    connectStart: 1518700292145,
+    domComplete: 1518700292715,
+    domContentLoadedEventEnd: 1518700292567,
+    domContentLoadedEventStart: 1518700292565,
+    domInteractive: 1518700292565,
+    domLoading: 1518700292210,
+    domainLookupEnd: 1518700292145,
+    domainLookupStart: 1518700292144,
+    fetchStart: 1518700292144,
+    firstPaint: 345.0000286102295,
+    loadEventEnd: 1518700292718,
+    loadEventStart: 1518700292715,
+    navigationStart: 1518700292120,
+    redirectEnd: 0,
+    redirectStart: 0,
+    requestStart: 1518700292170,
+    responseEnd: 1518700292209,
+    responseStart: 1518700292205,
+    secureConnectionStart: 0,
+    unloadEventEnd: 0,
+    unloadEventStart: 0,
+    loadTime: 574,
+    domReadyTime: 150,
+    readyStart: 24,
+    redirectTime: 0,
+    appcacheTime: 0,
+    unloadEventTime: 0,
+    domainLookupTime: 1,
+    connectTime: 24,
+    requestTime: 39,
+    initDomTreeTime: 356,
+    loadEventTime: 3,
+    _browserName: 'chrome',
+    _url: 'http://nparashuram.com/perfslides/' } ]

@@ -1,0 +1,319 @@
+
+(node:59359) [DEP0022] DeprecationWarning: os.tmpDir() is deprecated. Use os.tmpdir() instead.
+  bp:index Selenium is on localhost +0ms
+  bp:metrics Initializing Metrics +0ms
+  bp:probes Registering probe PerfLogProbe +95ms
+  bp:probes:AndroidTracingProbe Initialize +3ms
+  bp:probes Registering probe AndroidTracingProbe +0ms
+  bp:probes Registering probe PerfLogProbe +2ms
+  bp:probes Registering probe AndroidTracingProbe +0ms
+  bp:probes Registering probe RafBenchmarkingProbe +1ms
+  bp:probes Registering probe NavTimingProbe +2ms
+  bp:probes Registering probe NetworkResourcesProbe +1ms
+  bp:metrics TimelineMetrics setup called +1ms
+  bp:metrics ChromeTracingMetrics setup called +0ms
+  bp:metrics NetworkResources setup called +0ms
+  bp:probes setup +0ms
+  bp:probes PerfLogProbe setup called +1ms
+  bp:probes AndroidTracingProbe setup called +0ms
+  bp:probes NetworkResourcesProbe setup called +0ms
+  bp:index Stating browser with {"browserName":"chrome","chromeOptions":{"perfLoggingPrefs":{"traceCategories":",blink.console,devtools.timeline,disabled-by-default-devtools.timeline,toplevel,disabled-by-default-devtools.timeline.frame,benchmark"},"args":["--enable-gpu-benchmarking","--enable-thread-composting"]},"loggingPrefs":{"performance":"ALL"}} +0ms
+  bp:selenium CALL init({"browserName":"chrome","chromeOptions":{"perfLoggingPrefs":{"tra  +2ms
+  bp:selenium RESPONSE init({"browserName":"chrome","chromeOptions":{"perfLoggingPrefs":{"tra "15f2beb7045ee916988bb197db01241a",{"applicationCacheEnabled":false,"r +513ms
+  bp:index Session is 15f2beb7045ee916988bb197db01241a +2ms
+  bp:index Running Prescript +0ms
+  bp:selenium CALL get("http://nparashuram.com/perfslides/")  +0ms
+  bp:selenium RESPONSE get("http://nparashuram.com/perfslides/")  +865ms
+  bp:probes start +0ms
+  bp:probes PerfLogProbe start called +0ms
+  bp:selenium CALL logTypes()  +1ms
+  bp:selenium RESPONSE logTypes() ["server","performance","browser","driver"] +4ms
+  bp:probes:PerfLogProbe Supported log types [ 'server', 'performance', 'browser', 'driver' ] +0ms
+  bp:probes AndroidTracingProbe start called +2ms
+  bp:probes RafBenchmarkingProbe start called +0ms
+  bp:selenium CALL execute("(function(){var getTimeMs=(function(){if(window.performance)\  +2ms
+  bp:selenium RESPONSE execute("(function(){var getTimeMs=(function(){if(window.performance)\ null +9ms
+  bp:probes NetworkResourcesProbe start called +1ms
+  bp:selenium CALL execute("(function(){window.__networkResources=(window.performance&&ty  +0ms
+  bp:actions:scroll Initializing Scroll function +10ms
+  bp:selenium CALL execute("'use strict';(function(){function getBoundingVisibleRect(el){  +1ms
+  bp:selenium RESPONSE execute("(function(){window.__networkResources=(window.performance&&ty null +7ms
+  bp:selenium CALL eval("window.__networkResources")  +1ms
+  bp:selenium RESPONSE execute("'use strict';(function(){function getBoundingVisibleRect(el){ null +6ms
+  bp:actions:scroll Waiting for Scrolling to finish +0ms
+  bp:selenium CALL waitFor({"asserter":{},"timeout":600000,"pollFreq":2000})  +0ms
+  bp:selenium CALL eval("(window.__scrollActionDone === true)")  +0ms
+  bp:selenium RESPONSE eval("window.__networkResources") [{"connectEnd":45.825,"connectStart":22.64,"decodedBodySize":17672,"do +14ms
+  bp:selenium RESPONSE eval("(window.__scrollActionDone === true)") false +2ms
+  bp:selenium CALL eval("(window.__scrollActionDone === true)")  +2s
+  bp:selenium RESPONSE eval("(window.__scrollActionDone === true)") false +6ms
+  bp:selenium CALL eval("(window.__scrollActionDone === true)")  +2s
+  bp:selenium RESPONSE eval("(window.__scrollActionDone === true)") false +6ms
+  bp:selenium CALL eval("(window.__scrollActionDone === true)")  +2s
+  bp:selenium RESPONSE eval("(window.__scrollActionDone === true)") false +6ms
+  bp:selenium CALL eval("(window.__scrollActionDone === true)")  +2s
+  bp:selenium RESPONSE eval("(window.__scrollActionDone === true)") true +6ms
+  bp:selenium RESPONSE waitFor({"asserter":{},"timeout":600000,"pollFreq":2000}) true +0ms
+  bp:probes teardown +1ms
+  bp:probes PerfLogProbe teardown called +0ms
+  bp:probes:PerfLogProbe Getting Performance log http://localhost:4444/wd/hub/session/15f2beb7045ee916988bb197db01241a/log +0ms
+  bp:probes AndroidTracingProbe teardown called +5s
+  bp:probes RafBenchmarkingProbe teardown called +0ms
+  bp:probes:RafBenchmarkingProbe Clearing timer Interval +0ms
+  bp:selenium CALL eval("window.__RafRecorder.get()")  +0ms
+  bp:selenium RESPONSE eval("window.__RafRecorder.get()") [715.8479999925476,732.5279999931809,749.2079999938142,765.88799999444 +18ms
+  bp:probes NavTimingProbe teardown called +1ms
+  bp:selenium CALL execute("(function(){var requestAnimationFrame=(function(){return wind  +1ms
+  bp:selenium RESPONSE execute("(function(){var requestAnimationFrame=(function(){return wind null +8ms
+  bp:selenium CALL waitFor({"asserter":{},"timeout":600000,"pollFreq":1000})  +1ms
+  bp:selenium CALL eval("(typeof window.__navTimings !== \"undefined\")")  +0ms
+  bp:selenium RESPONSE eval("(typeof window.__navTimings !== \"undefined\")") false +7ms
+  bp:selenium CALL eval("(typeof window.__navTimings !== \"undefined\")")  +1s
+  bp:selenium RESPONSE eval("(typeof window.__navTimings !== \"undefined\")") true +6ms
+  bp:selenium RESPONSE waitFor({"asserter":{},"timeout":600000,"pollFreq":1000}) true +1ms
+  bp:selenium CALL eval("window.__navTimings")  +0ms
+  bp:selenium RESPONSE eval("window.__navTimings") {"connectEnd":1518700141739,"connectStart":1518700141716,"domComplete" +6ms
+  bp:probes NetworkResourcesProbe teardown called +1ms
+  bp:selenium CALL execute("(function(){window.__networkResources=(window.performance&&ty  +0ms
+  bp:selenium RESPONSE execute("(function(){window.__networkResources=(window.performance&&ty null +6ms
+  bp:selenium CALL eval("window.__networkResources")  +0ms
+  bp:selenium RESPONSE eval("window.__networkResources") [{"connectEnd":45.825,"connectStart":22.64,"decodedBodySize":17672,"do +14ms
+  bp:metrics Getting Results +0ms
+  bp:metrics Getting results from  TimelineMetrics +0ms
+  bp:metrics Getting results from  ChromeTracingMetrics +2ms
+  bp:metrics:RenderingStats Process ID for render process is  59385 +2ms
+  bp:metrics:RenderingStats Timestamp Event name is  BenchmarkInstrumentation::ImplThreadRenderingStats +0ms
+  bp:metrics Getting results from  RafBenchmarkingRenderingStats +9ms
+  bp:metrics Getting results from  NetworkTimings +0ms
+  bp:metrics Getting results from  NetworkResources +0ms
+  bp:selenium CALL quit()  +1ms
+  bp:selenium RESPONSE quit()  +55ms
+
+
+[ { 'MessagePumpLibevent::OnLibeventNotification': 347.0870016813278,
+    'MessagePumpLibevent::OnLibeventNotification_avg': 0.03635941773322102,
+    'MessagePumpLibevent::OnLibeventNotification_max': 1.2400000095367432,
+    'MessagePumpLibevent::OnLibeventNotification_count': 9546,
+    'ChannelMojo::OnMessageReceived': 91.60299974679947,
+    'ChannelMojo::OnMessageReceived_avg': 0.017622739466487007,
+    'ChannelMojo::OnMessageReceived_max': 0.16699999570846558,
+    'ChannelMojo::OnMessageReceived_count': 5198,
+    'MessageLoop::RunTask': 2904.5580018162727,
+    'MessageLoop::RunTask_avg': 0.1194897976722179,
+    'MessageLoop::RunTask_max': 186.87399998307228,
+    'MessageLoop::RunTask_count': 24308,
+    GPUTask: 430.8549992740154,
+    GPUTask_avg: 0.335556853017146,
+    GPUTask_max: 26.488999992609024,
+    GPUTask_count: 1284,
+    'TaskQueueManager::ProcessTaskFromWorkQueue': 1361.9799998104572,
+    'TaskQueueManager::ProcessTaskFromWorkQueue_avg': 0.13194923462608577,
+    'TaskQueueManager::ProcessTaskFromWorkQueue_max': 175.3159999847412,
+    'TaskQueueManager::ProcessTaskFromWorkQueue_count': 10322,
+    InvalidateLayout: 16,
+    Layout: 157.6879999935627,
+    Layout_avg: 8.760444444086817,
+    Layout_max: 132.50499999523163,
+    Layout_count: 18,
+    UpdateLayerTree: 51.24699956178665,
+    UpdateLayerTree_avg: 0.05917667385887604,
+    UpdateLayerTree_max: 1.1710000038146973,
+    UpdateLayerTree_count: 866,
+    Paint: 83.01100000739098,
+    Paint_avg: 0.22496205964062596,
+    Paint_max: 2.2020000219345093,
+    Paint_count: 369,
+    SetLayerTreeId: 3,
+    EvaluateScript: 64.17100021243095,
+    EvaluateScript_avg: 0.5392521026254702,
+    EvaluateScript_max: 17.26399999856949,
+    EvaluateScript_count: 119,
+    BeginMainThreadFrame: 501,
+    EventDispatch: 18.735000044107437,
+    EventDispatch_avg: 0.012693089460777397,
+    EventDispatch_max: 3.817999988794327,
+    EventDispatch_count: 1476,
+    BeginFrame: 521,
+    RequestMainThreadFrame: 497,
+    ActivateLayerTree: 370,
+    DrawFrame: 364,
+    NeedsBeginFrameChanged: 16,
+    UpdateLayer: 37.81999987363815,
+    UpdateLayer_avg: 0.0344131027057672,
+    UpdateLayer_max: 0.4390000104904175,
+    UpdateLayer_count: 1099,
+    CompositeLayers: 59.4799998998642,
+    CompositeLayers_avg: 0.1187225546903477,
+    CompositeLayers_max: 21.39400002360344,
+    CompositeLayers_count: 501,
+    'TaskGraphRunner::RunTask': 217.60900044441223,
+    'TaskGraphRunner::RunTask_avg': 0.14624260782554585,
+    'TaskGraphRunner::RunTask_max': 17.82199999690056,
+    'TaskGraphRunner::RunTask_count': 1488,
+    UpdateLayoutTree: 54.23699998855591,
+    UpdateLayoutTree_avg: 5.423699998855591,
+    UpdateLayoutTree_max: 36.08599999547005,
+    UpdateLayoutTree_count: 10,
+    ScheduleStyleRecalculation: 9,
+    ResourceReceiveResponse: 37,
+    ResourceReceivedData: 218,
+    CommitLoad: 0.33899998664855957,
+    CommitLoad_avg: 0.16949999332427979,
+    CommitLoad_max: 0.21599999070167542,
+    CommitLoad_count: 2,
+    FunctionCall: 35.77000027894974,
+    FunctionCall_avg: 0.07255578149888385,
+    FunctionCall_max: 7.53099998831749,
+    FunctionCall_count: 493,
+    UpdateCounters: 511,
+    ResourceFinish: 37,
+    ResourceSendRequest: 37,
+    PlatformResourceSendRequest: 1.617000013589859,
+    PlatformResourceSendRequest_avg: 0.04491666704416275,
+    PlatformResourceSendRequest_max: 0.14000001549720764,
+    PlatformResourceSendRequest_count: 36,
+    ParseHTML: 19.736999988555908,
+    ParseHTML_avg: 1.3157999992370606,
+    ParseHTML_max: 8.465999990701675,
+    ParseHTML_count: 15,
+    'v8.compile': 3.1700000166893005,
+    'v8.compile_avg': 0.5283333361148834,
+    'v8.compile_max': 1.6680000126361847,
+    'v8.compile_count': 6,
+    TaskSchedulerRunTask: 46.668999910354614,
+    TaskSchedulerRunTask_avg: 0.40581739052482274,
+    TaskSchedulerRunTask_max: 8.783999979496002,
+    TaskSchedulerRunTask_count: 115,
+    MarkLoad: 2,
+    MarkDOMContent: 2,
+    TracingStartedInBrowser: 2,
+    'SingleThreadTaskGraphRunner::RunTaskWithLockAcquired': 0.1380000114440918,
+    'SingleThreadTaskGraphRunner::RunTaskWithLockAcquired_avg': 0.017250001430511475,
+    'SingleThreadTaskGraphRunner::RunTaskWithLockAcquired_max': 0.050999999046325684,
+    'SingleThreadTaskGraphRunner::RunTaskWithLockAcquired_count': 8,
+    'BrowserCrApplication::sendEvent': 3.3129999935626984,
+    'BrowserCrApplication::sendEvent_avg': 1.104333331187566,
+    'BrowserCrApplication::sendEvent_max': 3.0789999961853027,
+    'BrowserCrApplication::sendEvent_count': 3,
+    'LatencyInfo.Flow': 32.68399980664253,
+    'LatencyInfo.Flow_avg': 0.02290399425833394,
+    'LatencyInfo.Flow_max': 0.10799998044967651,
+    'LatencyInfo.Flow_count': 1427,
+    TracingStartedInPage: 1,
+    RasterTask: 93.99599972367287,
+    RasterTask_avg: 0.31124503219759225,
+    RasterTask_max: 5.5799999833106995,
+    RasterTask_count: 302,
+    'Decode Image': 51.03700000047684,
+    'Decode Image_avg': 2.126541666686535,
+    'Decode Image_max': 12.775000005960464,
+    'Decode Image_count': 24,
+    'Decode LazyPixelRef': 52.30699998140335,
+    'Decode LazyPixelRef_avg': 2.274217390495798,
+    'Decode LazyPixelRef_max': 12.82600000500679,
+    'Decode LazyPixelRef_count': 23,
+    ImageDecodeTask: 81.64499995112419,
+    ImageDecodeTask_avg: 3.549782606570617,
+    ImageDecodeTask_max: 17.80000001192093,
+    ImageDecodeTask_count: 23,
+    ParseAuthorStyleSheet: 5.232000023126602,
+    ParseAuthorStyleSheet_avg: 2.616000011563301,
+    ParseAuthorStyleSheet_max: 4.679000020027161,
+    ParseAuthorStyleSheet_count: 2,
+    ResourceChangePriority: 0.02799999713897705,
+    ResourceChangePriority_avg: 0.013999998569488525,
+    ResourceChangePriority_max: 0.017999976873397827,
+    ResourceChangePriority_count: 2,
+    'v8.parseOnBackground': 59.5450000166893,
+    'v8.parseOnBackground_avg': 29.77250000834465,
+    'v8.parseOnBackground_max': 56.80500000715256,
+    'v8.parseOnBackground_count': 2,
+    PaintImage: 2.7920002341270447,
+    PaintImage_avg: 0.01912328927484277,
+    PaintImage_max: 0.04300001263618469,
+    PaintImage_count: 146,
+    'Draw LazyPixelRef': 146,
+    MinorGC: 2.555999994277954,
+    MinorGC_avg: 1.277999997138977,
+    MinorGC_max: 1.2809999883174896,
+    MinorGC_count: 2,
+    MajorGC: 0.009999990463256836,
+    MajorGC_avg: 0.009999990463256836,
+    MajorGC_max: 0.009999990463256836,
+    MajorGC_count: 1,
+    BlinkGCMarking: 1.938999980688095,
+    BlinkGCMarking_avg: 0.9694999903440475,
+    BlinkGCMarking_max: 1.313999980688095,
+    BlinkGCMarking_count: 2,
+    'ThreadState::performIdleLazySweep': 0.8459999859333038,
+    'ThreadState::performIdleLazySweep_avg': 0.4229999929666519,
+    'ThreadState::performIdleLazySweep_max': 0.5529999732971191,
+    'ThreadState::performIdleLazySweep_count': 2,
+    TimerRemove: 2,
+    TimerInstall: 2,
+    RequestAnimationFrame: 488,
+    FireAnimationFrame: 35.96200004220009,
+    FireAnimationFrame_avg: 0.07384394259178663,
+    FireAnimationFrame_max: 0.5130000114440918,
+    FireAnimationFrame_count: 487,
+    HitTest: 15.335999876260757,
+    HitTest_avg: 0.04295798284666879,
+    HitTest_max: 0.09200000762939453,
+    HitTest_count: 357,
+    TimerFire: 2.7180000245571136,
+    TimerFire_avg: 2.7180000245571136,
+    TimerFire_max: 2.7180000245571136,
+    TimerFire_count: 1,
+    Layers: 2,
+    PaintedArea_total: 4932567778,
+    PaintedArea_avg: 13367392.352303524,
+    NodePerLayout_avg: 421.77777777777777,
+    ExpensivePaints: 0,
+    ExpensiveEventHandlers: 0,
+    'framesPerSec (devtools)': 58.86267633286214,
+    Styles: 59.46900001168251,
+    Javascript: 102.5070004761219,
+    mean_frame_time: 18.057136490235422,
+    percentage_smooth: 88.3008356545961,
+    frames_per_sec: 55.3797663622225,
+    frame_time_discrepancy: 406.5935905447917,
+    numAnimationFrames: 755,
+    numFramesSentToScreen: 755,
+    droppedFrameCount: 7,
+    meanFrameTime_raf: 16.812380952364826,
+    framesPerSec_raf: 59.479975075115114,
+    connectEnd: 1518700141739,
+    connectStart: 1518700141716,
+    domComplete: 1518700142389,
+    domContentLoadedEventEnd: 1518700142128,
+    domContentLoadedEventStart: 1518700142126,
+    domInteractive: 1518700142126,
+    domLoading: 1518700141778,
+    domainLookupEnd: 1518700141716,
+    domainLookupStart: 1518700141715,
+    fetchStart: 1518700141715,
+    firstPaint: 340.9998416900635,
+    loadEventEnd: 1518700142393,
+    loadEventStart: 1518700142389,
+    navigationStart: 1518700141693,
+    redirectEnd: 0,
+    redirectStart: 0,
+    requestStart: 1518700141739,
+    responseEnd: 1518700141778,
+    responseStart: 1518700141773,
+    secureConnectionStart: 0,
+    unloadEventEnd: 0,
+    unloadEventStart: 0,
+    loadTime: 678,
+    domReadyTime: 263,
+    readyStart: 22,
+    redirectTime: 0,
+    appcacheTime: 0,
+    unloadEventTime: 0,
+    domainLookupTime: 1,
+    connectTime: 23,
+    requestTime: 39,
+    initDomTreeTime: 348,
+    loadEventTime: 4,
+    _browserName: 'chrome',
+    _url: 'http://nparashuram.com/perfslides/' } ]
